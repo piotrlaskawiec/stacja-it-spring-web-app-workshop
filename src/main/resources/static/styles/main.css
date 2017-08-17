@@ -1,0 +1,27 @@
+.home #availableTokens {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.home #logoutSection {
+    float: right;
+}
+
+.login {
+    height:110px;
+    width:190px;
+    margin:auto;
+    border:1px #CCC solid;
+    padding:10px;
+}
+
+.login input {
+    padding:5px;
+    margin:5px
+}
+
+.login .msg {
+    margin:5px;
+    font-size: 11px;
+    font-weight: bold;
+}
