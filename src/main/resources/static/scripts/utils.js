@@ -64,7 +64,7 @@ var SPRINGFUNAPP = SPRINGFUNAPP || (function($, window, undefined) {
             .style("fill", "#fff")
             .style("stroke", "#222")
             .on('click', function(data) {
-                // do nothing
+                _reserve("pixels", {row: data.row, column: data.column, color: "#000000"});
             });
     };
 
